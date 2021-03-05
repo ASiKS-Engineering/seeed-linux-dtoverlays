@@ -9,7 +9,7 @@ Overlays:
 
 Step 1: Clone this repo:
 ```sh
-git clone https://github.com/Seeed-Studio/seeed-linux-dtoverlays
+git clone https://github.com/ASiKS-Engineering/seeed-linux-dtoverlays
 cd seeed-linux-dtoverlays
 ```
 Step 2: Install *.dtbo:
