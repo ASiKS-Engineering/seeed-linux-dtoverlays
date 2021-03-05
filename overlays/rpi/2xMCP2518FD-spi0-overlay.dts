@@ -61,7 +61,7 @@
                 pinctrl-names = "default";
          	pinctrl-0 = <&can_int_pins>;
                 compatible = "microchip,mcp25xxfd";
-                spi-max-frequency = <20000000>;
+                spi-max-frequency = <25000000>;
                 interrupt-parent = <&gpio>;
                 interrupts = <24 8>; /* IRQ_TYPE_LEVEL_LOW */
                 clocks = <&mcp2518fd_osc>;
@@ -71,7 +71,7 @@
                 reg = <0>;
                 pinctrl-names = "default";
                 compatible = "microchip,mcp25xxfd";
-                spi-max-frequency = <20000000>;
+                spi-max-frequency = <25000000>;
                 interrupt-parent = <&gpio>;
                 interrupts = <25 8>; /* IRQ_TYPE_LEVEL_LOW */
                 clocks = <&mcp2518fd_osc>;
